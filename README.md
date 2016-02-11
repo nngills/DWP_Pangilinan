@@ -6,13 +6,13 @@
 	* Single-Tier server
 	* The most taxing thing the server will hold is images. Therefore the basic droplet plan should be enough. (I certainly couldn't use more than 500MB on *just* images right?)
 
-2. Figure out how to get site content onto the server's IP
+2. Make basic static site
+	* This will act more as a template/skeleton for the final portfolio
+
+3. Figure out how to get site content onto the server's IP
 	* Configure server for git development
 	* Test with a basic page
 	* Hope it works (it if doesn't then cry)
-
-3. Make basic static site
-	* This will act more as a template/skeleton for the final portfolio
 
 4. Push basic site to the server
 
