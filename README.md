@@ -4,7 +4,7 @@
 
 1. Spin up basic server
 	* Single-Tier server
-	* the most taxing thing the server will hold is images. Therefore the basic droblet plan should be enough. (I certainly couldn't use more than 500MB on *just* images right?)
+	* The most taxing thing the server will hold is images. Therefore the basic droplet plan should be enough. (I certainly couldn't use more than 500MB on *just* images right?)
 
 2. Figure out how to get site content onto the server's IP
 	* Configure server for git development

@@ -1,0 +1,15 @@
+header{
+	margin-bottom: 30px;
+}
+
+img{
+	max-width: 100%;
+	margin-bottom: 10px;
+	max-height: 850px;
+}
+
+article section{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 1.2em;
+}
