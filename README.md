@@ -34,5 +34,5 @@
 3. Push site to the server
 
 ###Server IP's
-Production Server: 104.131.137.167
-Staging Server: 162.243.247.212
+* Production Server: 104.131.137.167
+* Staging Server: 162.243.247.212
