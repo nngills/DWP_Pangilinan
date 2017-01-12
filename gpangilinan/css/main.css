@@ -10,7 +10,13 @@ img{
 }
 
 article section{
-	margin-bottom: 30px;
+	padding: 15px;
+	margin-bottom: 50px;
 	text-align: center;
 	font-size: 1.2em;
+	background-color:#EBEBEB;
+}
+
+.container{
+	width: 800px;
 }
