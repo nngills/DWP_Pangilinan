@@ -1,0 +1,72 @@
+@font-face{
+	font-family: "Raleway";
+	src: url(fonts/Raleway-Regular.ttf);
+}
+
+@font-face{
+	font-family: "Raleway Bold";
+	src: url(fonts/Raleway-Bold.ttf);
+}
+
+body{
+	background-color: #191919;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	font-family: "Raleway", Arial, sans-serif;
+}
+
+/*-----FORM------*/
+#reserve{
+	width: 86%;
+	margin: 0 auto;
+}
+
+#reserve form{
+	width: 48%;
+	float: right;
+	margin: 20px 0px;
+}
+
+#reserve input[type=text], #reserve textarea{
+	display: block;
+	width: 100%;
+	background-color: #3b3b3b;
+	padding: 20px;
+	border: none;
+	margin: 30px 0px;
+	font-size: 1em;
+	color: #fff;
+}
+
+#reserve textarea{
+	min-height: 200px;
+	resize: none;
+}
+
+/*-----BUTTON-----*/
+#reserve input[type=submit]{
+	background-color: #ee3939;
+	border: none;
+	color: #FFF;
+	font-size: 1.3em;
+	padding: 15px 30px;
+	transition: background-color 0.3s;
+}
+
+/*-----FORM HEADER-----*/
+#reserve h1{
+	font-family: "Raleway Bold", "Arial Black";
+	margin: 0px;
+	padding: 0px;
+	font-size: 4.2em;
+	position: absolute;
+	left: 17.5%;
+	top: 230px;
+}
+
+
+/*-----ANIMATION-----*/
+#reserve input[type=submit]:hover{
+	background-color: #3b3b3b;
+}

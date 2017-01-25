@@ -1,0 +1,160 @@
+@font-face{
+	font-family: "Helvetica Neue";
+	src: url(fonts/HelveticaNeue.dfont);
+}
+
+@font-face{
+	font-family: "Vollkorn";
+	src: url(fonts/Vollkorn-Regular.ttf);
+}
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+
+/*CONTAINER*/
+section, footer ul{
+	width: 900px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+header{
+	text-transform:uppercase;
+}
+
+h1{
+	font-weight: 100;
+	font-size: 3.5em;
+	text-align: center;
+	margin: 50px 0;
+}
+	
+	/*NAV*/
+	nav{
+		text-align: center;	
+		border-bottom: 1px solid #000;
+		border-top: 1px solid #000;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	
+	nav li{
+		display: inline;
+		text-decoration: none;
+		font-weight: 100;
+		font-size: 1.8em;
+		padding: 5px;
+	}
+	
+	nav li:nth-child(2){ 
+		margin-left: 100px;	
+	}
+	
+	nav a{
+		text-decoration: none;
+		color: #000;
+	}
+	
+/*CONTENT*/
+
+	/*ABOUT*/
+	#abt{
+		padding-bottom: 40%;	
+	}
+	
+	#abt p{
+		text-align: center;
+	}
+	
+p, #complibrary a{
+	font-family: Vollkorn, Times, "Times New Roman", serif;
+}
+
+h2{
+	font-weight: 100;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 50px 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #333;
+}
+
+h3{
+	font-weight: 100;
+	font-size: 1.9em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #999;
+	width: 80%;
+}
+
+	/*COMPONENT LIBRARY*/
+	#complibrary img{
+		margin-bottom: 15px;
+		max-height: 600px;
+		max-width: 900px;
+	}
+	
+	#complibrary p{
+		width: 90%;
+	}
+	
+	#complibrary a{
+		text-decoration: none;
+		color: #999;
+	}
+	
+	#complibrary article{
+		margin-bottom: 50px;
+	}
+	
+/*FOOTER*/
+footer{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #e7e7e7;
+	font-size: .8em;
+	color: #ADADAD;
+}	
+
+footer li{
+	list-style: none;
+	display: inline;
+}
+
+footer li:last-child{
+	float: right;
+}
+	
+/*OVERLINE*/
+.highlight{
+	background-color: #EBEBEB;
+}
+
+/*---TOP BUTTON---*/
+#topbtn{
+	position: fixed;
+	z-index: 20;
+	width: 50px;
+	height: 50px;
+	bottom: 20px;
+	right: 20px;
+	opacity: 0.4;
+}
+
+#topbtn img{
+	width: 100%;
+	height: 100%;
+	left: 4px;
+	position: relative;
+	top: 3px;
+	object-fit: cover;
+	transition:all 0.2s;
+}
+
+#topbtn:hover img, #topbtn:active img{
+	top: -3px;
+}

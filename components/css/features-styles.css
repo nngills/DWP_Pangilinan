@@ -1,0 +1,64 @@
+body{
+	font-family: Roboto, "Myriad Pro", sans-serif;
+	font-weight: 100;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*-----FEATURES-----*/
+#features{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#features h1{
+	font-family: Helvetica, Arial;
+	font-weight: 100;
+	text-transform:uppercase;
+	font-size: 2.7em;
+	text-align: center;
+}
+
+#features h2{
+	font-family: Helvetica, Arial;
+	font-weight: 100;
+	text-transform:uppercase;
+	font-size: 2em;
+}
+
+#features p, #features li{
+	line-height: 150%;
+}
+
+/*-----LEFT COLUMN-----*/
+#basic-features{
+	width: 40%;
+	float: left;
+}
+
+/*-----RIGHT COLUMN------*/
+#more-features{
+	width: 50%;
+	float: right;
+}
+
+#more-features ul{
+	padding-left: 15px;
+}
+
+#more-features li{
+	margin-bottom: 15px;
+}
+
+#more-features strong{
+	font-weight: 500;
+}
+
+#more-features em{
+	color: #007baf;
+}
+
+#more-features a{
+	text-decoration: none;
+	color: #006ea5;
+}

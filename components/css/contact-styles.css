@@ -1,0 +1,100 @@
+body{
+	background-color: #2D2D2D;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+/*-----CONTACT-----*/
+#contact{
+	width: 400px;
+	margin-left: 50px;
+}
+
+#contact h1{
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 1em;
+	letter-spacing: 3px;
+	background-color:#484848;
+	padding: 15px;
+	position: relative;
+}
+
+#contact h1::after{
+	content: "";
+	display: block;
+	top: 0px;
+	left: 400px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 48px solid #484848;
+	border-right: 48px solid transparent;
+	
+}
+
+/*-----INFORMATION-----*/
+#contact address{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	line-height: 150%;
+	font-weight: 500;
+	font-style: normal;
+}
+
+/*-----PHONE NUMBER/EMAIL*/
+#contact dl{
+	font-size: 1.5em;
+	margin: 0;
+}
+
+#contact dt{
+	color: #666;
+	display: inline;
+	font-weight: 500;
+}
+
+#contact dd{
+	color: #D21034;
+	display: inline;
+	margin-left: 10px;
+	font-weight: 900!important;
+}
+
+#contact dd::after{
+	content: "";
+	display: block;
+}
+
+/*-----SOCIAL MEDIA-----*/
+#contact a{
+	color: #d21034;
+	font-size: 1.5em;
+	font-weight: 900!important;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+#contact ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#contact a::before{
+	content: "";
+	display: inline-block;
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-color: #666;
+	border-radius: 5px;
+	margin-right: 10px;
+	right: 7px;
+}
+
+/*-----ANIMATION-----*/
+#contact a:hover{
+	color: #9A0B25;
+}

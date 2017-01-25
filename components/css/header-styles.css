@@ -1,0 +1,112 @@
+body{
+	background-color: #000;
+	font-family: "Helvetica Neue";
+	margin: 0px;
+	padding: 0px;
+}
+
+/*-----HEADER-----*/
+header{
+	margin: 0 2em;
+	position: relative;
+}
+
+header a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*----LOGO-----*/
+h1{
+	height: 112px;
+	width: 92px;
+	background-size: contain;
+	background-image:url(../../images/wwflogo.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 1.5em;
+	margin: 0px;
+	line-height: 95%;
+}
+
+h1 a strong{
+	color: #ffbb03;
+	display: block;
+}
+
+h1 a{
+	float: left;
+	padding-left: 112px;
+	padding-top: 35px;
+	height: 77px;
+}
+
+
+/*-----NAV-----*/
+nav{
+	text-transform: uppercase;
+	font-weight: 900;
+	width: 549px;
+	margin: 0 auto;
+	position: relative;
+	top: 54px;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li{
+	display: inline;
+	text-decoration: none;
+	margin-left: 4em;
+}
+
+nav li:first-child{
+	margin-left: 0px;
+}
+
+/*-----SIDE-----*/
+#side{
+	position: absolute;
+	right: 0;
+	top: 37px;
+}
+
+#side li{
+	display: inline;
+	text-decoration: none;
+	margin-left: 2em;
+}
+
+#side li:first-child{
+	margin-left: 0px;
+}
+
+#donate{
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 15px;
+	padding-bottom: 23px;
+	background-image:url(../../images/donatebtn.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+/*-----HIGHLIGHT-----*/
+#highlight{
+	color:#828181;
+}
+
+/*-----ANIMATION-----*/
+nav a, #donate{
+	transition: color 0.3s;	
+}
+
+nav a:hover, #donate:hover{
+	color: #ffbb03;
+}

@@ -1,0 +1,81 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFF;
+	background-image: url(../../images/borderlandsbg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #000;
+}
+
+/*-----STORE-----*/
+#store{
+	width: 880px;
+	margin: 20px auto;
+	background-color: rgba(0,0,0, 0.7);
+	overflow: auto;
+	padding: 20px;
+}
+
+#store article{
+	list-style: none;
+	float: left;
+	width: 200px;
+	margin: 10px;
+	min-height: 332px;
+	position: relative;
+}
+
+#store a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+}
+
+#store h1{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+#store p{
+	margin: 0px;
+}
+
+#store s{
+	color: #888;
+	font-size: 0.9em;
+}
+
+#store p:nth-last-of-type(2){
+	font-weight: 900;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+#store p:last-of-type{
+	background-color: #FFCC00;
+	color: #000;
+	font-weight: 900;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	width: 90%;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+}
+
+/*-----OUT OF STOCK------*/
+.out-of-stock{
+	opacity: 0.5;
+}
+
+/*-----HOVER-----*/
+#store a:hover h1{
+	color: #FC0;
+}
+
+#store p:last-of-type:hover{
+	background-color: #FFD52D;
+}

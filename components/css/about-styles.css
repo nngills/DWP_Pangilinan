@@ -1,0 +1,36 @@
+body{
+	font-family: "Courier New";
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+/*-----ABOUT-----*/
+#about{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+
+/*-----TEXT-----*/
+#about main{
+	width: 50%;
+	float: right;
+	text-align: justify;
+	line-height: 120%;
+}
+
+/*-----ILLUST.-----*/
+aside{
+	width: 45%;
+	float: left;
+}
+
+aside img{
+	width: 100%;
+}
+
+aside p{
+	font-size: 0.5em;
+	text-align: center;
+}

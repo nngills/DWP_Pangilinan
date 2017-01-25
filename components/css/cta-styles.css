@@ -1,0 +1,78 @@
+@font-face{
+	font-family: "Avenir Next";
+	src: url(fonts/Avenir%20Next.ttc);
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica;
+}
+
+/*-----CTA-----*/
+#cta h1{
+	font-family:"Avenir Next", "Arial Black";
+	text-transform: uppercase;
+	margin: 0px;
+	color: #333;
+	background-color:#77c043; 
+	font-size: 2.5em;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/*-----CTA TEXT-----*/
+#cta article{
+	color: #fff;
+	background-color: #333;
+	display: block;
+	background-size: contain;
+	background-image:url(../../images/cta.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-top: 100px;
+	padding-bottom: 2px;
+}
+
+#cta article > * {
+	margin-left: 750px!important;
+}
+
+#cta h2{
+	font-family:"Avenir Next", "Arial Black";
+	text-transform: uppercase;
+	margin: 0px;
+	line-height: 100%;
+	font-size: 2em;
+}
+
+#cta p{
+	line-height: 150%;
+	margin-bottom: 30px;
+	width: 360px;
+}
+
+#credit{
+	font-size: 0.75em;
+	width: 35%!important;
+	margin-top: 50px;
+}
+
+/*------GET STARTED BUTTON-----*/
+#cta a{
+	font-family: "Avenir Next", "Arial Black";
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #fff;
+	border: solid 3px #fff;
+	padding: 8px 20px;
+	transition: all 0.2s;
+}
+
+/*------ANIMATION------*/
+#cta a:hover{
+	background-color: #FFF;
+	color: #333;
+}
