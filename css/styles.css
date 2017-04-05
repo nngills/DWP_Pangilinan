@@ -1,11 +1,11 @@
 @font-face{
 	font-family: "Helvetica Neue";
-	src: url(fonts/HelveticaNeue.dfont);
+	src: url("HelveticaNeue.dfont");
 }
 
 @font-face{
 	font-family: "Vollkorn";
-	src: url(fonts/Vollkorn-Regular.ttf);
+	src: url("Vollkorn-Regular.ttf");
 }
 
 body{
